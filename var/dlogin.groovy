@@ -1,4 +1,4 @@
-def call(){
+def call(credentialsId){
   withCredentials([
     usernamePassword(
       credentialsId: "dj",
